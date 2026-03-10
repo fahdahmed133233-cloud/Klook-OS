@@ -1,0 +1,115 @@
+body {
+background-image:url(Windows-10-Wallpaper-Mountain-2.webp) ;
+background-size: cover;
+padding: 12px;
+border: none;
+justify-items: center;
+justify-content: center;
+align-items: center;
+justify-self: center;
+display: flex;
+
+}
+.taskbar {
+background-color:rgba(255,255,255,0.08) ;
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border:4px solid rgba(255,255,255,0.02) ;
+justify-items: center;
+position:fixed ;
+bottom:25px ;
+height:45px ;
+border-radius: 15px;
+left: 20%;
+right:20%;
+justify-content: center;
+padding:6px ;
+display: flex;
+align-items: center;
+box-shadow:
+0 8px 32px rgba(0,0,0,0.4),
+inset 0 0 10px rgba(255,255,255,0.1);
+gap: 20px;
+}
+.Minecraft {
+background-image:url(Minecraft.jpg.png);
+background-size: cover;
+background-position: center;
+width: 40px;
+height: 40px;
+left:10% ;
+border:none ;
+padding: 10px;
+margin: 0%;
+border-radius:10px ;
+justify-self:left 10px ;
+background-color: rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+box-shadow: inset
+0 4px 15px rgba (0,0,0,0.4),
+inset 0 0 8px rgba(255,255,255,0.2);
+transition: all 0.3s ease;
+}
+.Minecraft:hover {
+transform: translateY(-8px) scale(1.1);
+}
+.Minecraft:active {
+transform: translateY(8px) scale(0.9);
+}
+.taskbar::before {
+content:"";
+position: absolute;
+inset: 0;
+border-radius: 15px;
+pointer-events: none;
+}
+.Facebook{
+background-image:url(Facebook.jpg.png);
+background-size: cover;
+background-position: center;
+width: 40px;
+height: 40px;
+left:10% ;
+border:none ;
+padding: 10px;
+margin: 0%;
+border-radius:10px ;
+justify-self:left 10px ;
+background-color: rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+box-shadow: inset
+0 4px 15px rgba (0,0,0,0.4),
+inset 0 0 8px rgba(255,255,255,0.2);
+transition: all 0.3s ease;
+}
+.Facebook:hover {
+    transform: translateY(-8px) scale(1.1);
+}
+.Facebook:active {
+    transform: translateY(8px) scale(0.9);
+}
+.Settings {
+background-image:url(Settings-logo-klook.png);
+background-size: cover;
+background-position: center;
+width: 40px;
+height: 40px;
+left:10% ;
+border:none ;
+padding: 10px;
+margin: 0%;
+border-radius:10px ;
+justify-self:left 10px ;
+background-color: rgba(255,255,255,0.1);
+backdrop-filter: blur(10px);
+box-shadow: inset
+0 4px 15px rgba (0,0,0,0.4),
+inset 0 0 8px rgba(255,255,255,0.2);
+transition: all 0.3s     
+}
+.Settings:hover {
+    transform: translateY(-8px) scale(1.1);
+} 
+.Settings:active {
+        transform: translateY(8px) scale(0.9);
+}
